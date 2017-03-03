@@ -25,6 +25,12 @@
 
 }
 
+top,#middle,#bottom{
+    height: 600px;
+    width: 300px;
+    background: green;
+}
+
 
 @font-face {
     font-family: 'open_bold';
