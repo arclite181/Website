@@ -1,13 +1,4 @@
 /*
-
-	Template Author : pixelhint.com
-	Author Email    : contact@pixelhint.com
-	Template Name   : Fertile
-	
-	
-	*****************************************
-	
-	
     - Header
 	- Billboard
     - Call To Action
@@ -78,9 +69,10 @@
 
 /*  General CSS*/
 .wrapper{
-	width: 1200px;
+	width: 1300px;
 	height: auto;
 	margin: 0 auto;
+
 }
 
 
@@ -114,7 +106,8 @@ header.trasparent_nav{
 header.trasparent_nav .logo,
 header.fixed_nav .logo{
     float: left;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: -90px;
 }
 
 header.fixed_nav .logo{

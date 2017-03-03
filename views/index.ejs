@@ -7,6 +7,7 @@
   <meta name="description" content=""/>
   <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -15,14 +16,13 @@
 <header class="trasparent_nav">
   <div class="wrapper">
     <div class="logo">
-      <a href="#"><img src="images/logo.png" alt="Fertile"></a>
+      <font color="#a9a9a9", size=10">Imran Khan</font>
     </div>
-
     <nav>
       <ul>
-        <li><a href="#">Our Story</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Journal</a></li>
+        <li><a href="/mystory">My Story</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -37,9 +37,9 @@
 
     <nav>
       <ul>
-        <li><a href="#">Our Story</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Journal</a></li>
+        <li><a href="#">My Story</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -47,39 +47,44 @@
 </header><!-- End fixed_nav -->
 
 <section class="billboard">
-  <img src="images/billboard.jpg" alt="" title=""/>
+  <img src="images/dumb2.jpg" alt="" title=""/>
 </section><!-- End billboard -->
 
 <section class="cta cta_top">
-  <p>Have a project in mind?  We would love to hear from you!</p>
-  <a href="#">Get in touch with us</a>
+  <p>Have an opportunity for me?  I would love to hear from you!</p>
+  <a href="#">
+    <div class="container">
+      <div class="btn">Contact me</div>
+    </div></a>
 </section><!-- End cta_top -->
 
 <section class="services wrapper">
-  <h2>We are fertile, we make awesome stuff.</h2>
+  <h2>About me</h2>
   <div class="separator">
     <img src="images/separator.png" alt=""/>
   </div>
   <ul>
     <li>
       <img class="s_icons" src="images/s1.png" alt=""/>
-      <h3>Slamco laboris velitesse</h3>
-      <p>sed do eiusmod tempor incididunt uto labore dolore magna aliqua enim
-        minim veniam.</p>
+      <h3>Education</h3>
+      <p>University of British Columbia. Bachelor of Computer Science.</p>
+      <p>2017</p>
+
     </li>
 
     <li>
       <img class="s_icons" src="images/s2.png" alt=""/>
-      <h3>Slamco laboris velitesse</h3>
-      <p>sed do eiusmod tempor incididunt uto labore dolore magna aliqua enim
-        minim veniam.</p>
+      <h3>My passion</h3>
+      <p>I am a social programmer. I love working with people who truly love what they do.
+      I want to create something beautiful that has the ability to impact others.</p>
     </li>
 
     <li>
       <img class="s_icons" src="images/s3.png" alt=""/>
-      <h3>Slamco laboris velitesse</h3>
-      <p>sed do eiusmod tempor incididunt uto labore dolore magna aliqua enim
-        minim veniam.</p>
+      <h3>My projects</h3>
+      <p>I have projects in C, Java and SQL. Currently working on an API for reddit using NodeJS. Check them out on my github:
+        <a href="https://www.github.com/arclite181"> <font color="black">Github</font></a></p>
+
     </li>
   </ul>
 </section><!-- End services -->
@@ -87,7 +92,7 @@
 
 <section class="recent_work">
   <div class="work">
-    <a href=""><img src="images/w1.jpg" alt=""></a>
+    <a href=""><img src="images/tbd_pic.png" alt=""></a>
   </div>
   <div class="work">
     <a href=""><img src="images/w2.jpg" alt=""></a>
@@ -105,22 +110,27 @@
 
 
 <section class="testimonials wrapper">
-  <h3>Testimonials</h3>
+  <h3>Achievement and hobbies</h3>
   <ul class="testi_boxs">
     <li>
-      <img class="avatar" src="images/client1.jpg" alt=""/>
-      <h2>David Doe <span class="client_job">/ Manager</span></h2>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+      <img class="avatar" src="images/check.jpg" alt=""/>
+      <h2>UBC Intramural Champions <span class="client_job"> 2014</span></h2>
+      <p>We had a UBC intramural team set up during undergrad. We practiced 3 times a week
+      and would play casually once in a while. We ended up signing up for intramurals and
+      getting 1st place. I also swim and play table tennis to relieve stress and stay active.</p>
     </li>
     <li>
-      <img class="avatar" src="images/client2.jpg" alt=""/>
-      <h2>David Doe <span class="client_job">/ UI Designer</span></h2>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+      <img class="avatar" src="images/check.jpg" alt=""/>
+      <h2> Chess Champion<span class="client_job">/ 2005</span></h2>
+      <p>1st place BC, 3rd place Canada. The tournament was held in Ottawa. I've always loved chess
+      and played online and in tournaments around the vancouver area. I beat a master in one of the games
+      and was subsequently invited to an invite-only tournament. Want to play against me? Stay tuned, I plan
+      on adding a chess board on this site so we can play.</p>
     </li>
     <li>
-      <img class="avatar" src="images/client3.jpg" alt=""/>
-      <h2>David Doe <span class="client_job">/ SEO Expert</span></h2>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+      <img class="avatar" src="images/check.jpg" alt=""/>
+      <h2> Gamer <span class="client_job">/ 2010</span></h2>
+      <p>Top 0.01% player in North America in League of Legends. Had my own guild in World of Warcraft.</p>
     </li>
   </ul>
 </section><!-- End testimonials -->
@@ -142,8 +152,8 @@
 <footer>
   <div class="wrapper">
     <section class="cta cta_footer">
-      <p>Have a project in mind?  We would love to hear from you!</p>
-      <a href="#">Get in touch with us</a>
+      <p>Have an opportunity for me? I would love to hear from you!</p>
+      <a href="#">Get in touch with me</a>
     </section>
 
     <div class="footer_widget">
@@ -160,7 +170,7 @@
       <div class="f_cols">
         <h3>Company</h3>
         <ul>
-          <li><a href="#">Our Story</a></li>
+          <li><a href="/mystory">My Story</a></li>
           <li><a href="#">Mission</a></li>
           <li><a href="#">Journal</a></li>
           <li><a href="#">Careers</a></li>
